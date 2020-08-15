@@ -1,0 +1,320 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body{
+  background: url("/bg.a8539b43.jpg");
+}
+ol,li{
+  list-style: none;
+}
+a{
+  text-decoration: none;
+  color: gray;
+}
+img{
+  max-width: 100%;
+}
+nav{
+  background: rgba(242, 242, 242,1);
+}
+nav{
+  display: flex;
+  justify-content: space-around;
+}
+
+nav>ul{
+  font-family: '黑体', serif;
+  display: flex;
+  font-size: 14px;
+  color: gray;
+}
+nav>ul>li{
+  justify-content: center;
+  align-items: center;
+  line-height: 40px;
+  padding: 0 10px;
+}
+nav>ul>li>img{
+  margin: auto;
+  max-width: 16px;
+ }
+.aColor>li{
+
+}
+.aColor>li:hover{
+  background: white;
+}
+.aColor>li>a:hover{
+  color: #ff6600;
+}
+.xPlace{
+  position: relative;
+}
+.hide{
+  width: 120px;
+  height: 120px;
+  padding: 10px;
+  top: 40px;
+  left: 1px;
+  border: 1px solid gray;
+  position: absolute;
+  display: none;
+}
+
+.servePlace{
+  position: relative;
+}
+.servePlace:hover{
+  background: white;
+}
+.serveHide{
+  position: absolute;
+  left: 1px;
+  font-size: 12px;
+  width: 76px;
+  background: white;
+  display: none;
+}
+.shopPlace{
+  position: relative;
+}
+.shopPlace:hover{
+  background: white;
+}
+.shopHide{
+  border: 1px solid gray;
+  position: absolute;
+  width: 400px;
+  height: 150px;
+  left: -337px;
+  background: white;
+  display: none;
+}
+.reveal{
+   display: block;
+ }
+.serveHide>a{
+  padding:  0 14px;
+  float: left;
+}
+.choose>li:hover{
+  color: #ff6600;
+}
+.choose>li>a{
+  padding-left: 10px;
+}
+.choose>li>a:hover{
+  color: #ff6600;
+}
+.choose>li:nth-last-child(1){
+  border-right: none;
+}
+.consult{
+  width: 180px;
+  height: 50px;
+  background: #ff6600;
+  color: white;
+  text-align: center;
+  position: fixed;
+  top: 95%;
+  left: 88%;
+  z-index: 1;
+}
+.consult>span{
+  line-height: 50px;
+}
+.mean{
+  position: fixed;
+  top: 50%;
+  left: 100%;
+  margin-top: -125px;
+  margin-left: -90px;
+  width: 90px;
+  height: 250px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  float: right;
+  z-index: 1;
+}
+.mean>a{
+  padding: 5px;
+  color: white;
+}
+.mean>a.active{
+  background: rgb(216, 186, 158);
+}
+.a{
+  margin-top: -4px;
+}
+.here{
+  padding: 30px 0;
+  background: white;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.input{
+
+}
+input{
+  width: 230px;
+  height: 30px;
+  border: none;
+  outline: 1px solid #ff6600;
+
+}
+button{
+  width: 50px;
+  height: 32px;
+  border: none;
+  margin-left: -4px;
+  border-radius: 2px;
+  color: white;
+  background: #ff6600;
+}
+.hint{
+  display: flex;
+}
+.hint>li{
+  font-size: 12px;
+  color: gray;
+}
+.phone>span{
+  font-size: 18px;
+  padding: 0 20px;
+  border-right: 1px solid gray;
+  color: gray;
+}
+.phone>span:nth-last-child(1){
+  border-right: none;
+}
+.navBg{
+  background: #f60;
+}
+.navBg>ul>li{
+  font-size: 16px;
+  font-weight: bold;
+  color: white;
+}
+.show{
+  display: flex;
+  max-width: 80%;
+  justify-content: center;
+  margin: auto;
+  flex-wrap: wrap;
+}
+.show>li{
+  background: white;
+  position: relative;
+  margin: 10px;
+}
+.place{
+  position: absolute;
+  top: 20px;
+  left: 15px;
+  max-width: 150px;
+}
+.place>h4{
+  padding-top: 20px;
+  padding-bottom: 10px;
+}.place>p{
+  font-size: 12px;
+  padding-bottom: 10px;
+ }
+.place>span{
+  margin-top: 20px;
+  border-bottom: 2px solid red;
+  color: red;
+}
+.imgPlace>img{
+  padding: 20px 0 20px 150px;
+  max-width: 300px;
+}
+.flower{
+  position: relative;
+}
+.flowerText{
+  width: 120px;
+  height: 100px;
+  position: absolute;
+  top: 145px;
+  left: 518px;
+}
+.flowerText>h4{
+  color: white;
+  font-size: 14px;
+}
+.flowerText>p{
+  font-size: 12px;
+  color: gray;
+}
+.flowerText>span{
+  color: white;
+  font-size: 16px;
+  border-bottom: 2px solid white;
+}
+.flowerLogo{
+  width: 100%;
+}
+.flowerLogo>img{
+  max-width: 50%;
+  margin: 0 25%;
+}
+.flowerList{
+  display: flex;
+  max-width: 80%;
+  justify-content: center;
+  margin: auto;
+  flex-wrap: wrap;
+}
+.flowerList>li{
+  margin: 10px;
+  background: white;
+}
+.flowerList>li>img{
+  max-width: 280px;
+}
+.texts{
+  padding-bottom: 10px;
+  text-align: center;
+}
+.texts>h4{
+  font-size: 14px;
+  color: rgb(98, 55, 71);
+}
+.texts>p{
+  font-size: 12px;
+}
+.texts>span{
+  font-size: 16px;
+  color: rgb(245, 190, 174);
+  border-bottom: 2px solid pink;
+}
+footer{
+  background: white;
+}
+.messageNav{
+  display: flex;
+  justify-content: center;
+
+}
+.messageNav>li{
+  margin: 30px 0;
+  border-right: 1px solid gray;
+  padding: 0 30px;
+  color: gray;
+}
+.messageNav>li:nth-last-child(1){
+  border-right: none;
+}
+.endConter{
+  font-size: 12px;
+  color: gray;
+  text-align: center;
+}
+
+/*# sourceMappingURL=/style.e308ff8e.css.map */
